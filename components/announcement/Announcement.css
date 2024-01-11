@@ -1,0 +1,27 @@
+.announcement {
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: cemter;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.announcement-text {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.text span {
+    margin-right: 4rem;
+}
+
+.text2 span:not(:last-child){
+    margin-right: 2rem;
+}
+
+.text2 span:not:last-child {
+    margin-right: 1rem;
+}

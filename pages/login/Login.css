@@ -1,0 +1,113 @@
+body {
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+.login {
+    margin: 20px auto;
+    padding: 40px 50px;
+    max-width: 300px;
+    border-radius: 30px;
+    border: 2px solid rgba(255,255,255,0.5);
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+    .login input {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin: 10px 0;
+        padding: 14px 12px;
+        font-size: 16px;
+        border-radius: 2px;
+        font-family: Raleway, sans-serif;
+        color: white;
+    }
+
+.login input[type=text],
+.login input[type=password] {
+    border-color: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    text-align: white;
+    background: transparent;
+    transition: .2s;
+    color: white;
+}
+
+.login input[type=text]:hover {
+    outline: none;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.login input[type=password]:hover {
+    outline: none;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.login input[type=submit] {
+    border: none;
+    border-radius: 20px;
+    background: salmon;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 20px 0px;
+}
+
+.login input[type=submit]:hover {
+    background: white;
+    color: salmon;
+    cursor: pointer;
+}
+
+    .login h2 {
+        margin: 20px 0 0;
+        color: white;
+        font-size: 28px;
+    }
+
+.login p {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.links {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: table-cell;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+    .login h2,
+    .login p,
+    .login a {
+        text-align: center;
+    }
+
+.login a {
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.login a:visited {
+    color: inherit;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+

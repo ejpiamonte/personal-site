@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.register {
+    margin: 20px auto;
+    padding: 40px 50px;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    background: transparent;
+    color: white;
+}
+    .register input {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        margin: 10px 0;
+        padding: 14px 12px;
+        font-size: 16px;
+        border-radius: 2px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+.register input[type=text],
+.register input[type=password]{
+    border-color: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    text-align: white;
+    background: transparent;
+    transition: .2s;
+}
+
+.register input[type=text]:hover {
+    outline: none;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.login input[type=password]:hover {
+    outline: none;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.register input[type=submit] {
+    border: none;
+    border-radius: 20px;
+    background: salmon;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 20px 0px;
+}
+
+.register input[type=submit]:hover {
+    background: white;
+    color: salmon;
+    cursor: pointer;
+}
+
+    .register h2 {
+        margin: 20px 0 0;
+        color: white;
+        font-size: 28px;
+    }
+    
+.register p {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.links {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: table-cell;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+    .register h2,
+    .register p,
+    .register a {
+        text-align: center;
+    }
+
+.register a {
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.register a:visited {
+    color: inherit;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
